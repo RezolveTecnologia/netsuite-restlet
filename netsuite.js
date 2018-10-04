@@ -34,7 +34,7 @@ function NetSuiteRestlet(config) {
  * @param url
  * @returns {Promise<any>}
  */
-NetSuiteRestlet.prototype.doGet = function (parameters, url) {
+NetSuiteRestlet.prototype.get = function (parameters, url) {
 
     return new Promise((resolve, reject) => {
 
@@ -74,7 +74,7 @@ NetSuiteRestlet.prototype.doGet = function (parameters, url) {
  * @param url
  * @returns {Promise<any>}
  */
-NetSuiteRestlet.prototype.doPost = function (body, url) {
+NetSuiteRestlet.prototype.post = function (body, url) {
 
     return new Promise((resolve, reject) => {
 
@@ -108,7 +108,7 @@ NetSuiteRestlet.prototype.doPost = function (body, url) {
  * @param url
  * @returns {Promise<any>}
  */
-NetSuiteRestlet.prototype.doPut = function (body, url) {
+NetSuiteRestlet.prototype.put = function (body, url) {
 
     return new Promise((resolve, reject) => {
 

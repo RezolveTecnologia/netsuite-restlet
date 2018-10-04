@@ -1,0 +1,23 @@
+{
+  "name": "netsuite-restlet",
+  "version": "0.8.0",
+  "description": "NetSuite Restlet authentication module for Node.js",
+  "main": "netsuite.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "netsuite",
+    "restlet"
+  ],
+  "author": "Jaime Ramos",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RezolveTecnologia/netsuite-restlet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RezolveTecnologia/netsuite-restlet/issues"
+  },
+  "homepage": "https://github.com/RezolveTecnologia/netsuite-restlet#readme"
+}

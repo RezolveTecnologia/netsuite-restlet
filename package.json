@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/RezolveTecnologia/netsuite-restlet/issues"
   },
-  "homepage": "https://github.com/RezolveTecnologia/netsuite-restlet#readme"
+  "homepage": "https://github.com/RezolveTecnologia/netsuite-restlet#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }

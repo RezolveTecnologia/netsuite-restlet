@@ -31,13 +31,12 @@ const config = {
   role: 'NetSuite role internal ID'
 };
 
-const url = 'https://restleturlhere'
+const url = 'https://restleturlhere';
+const parameters = {
+    internalid: 1
+};
 
 let ns = new NetSuiteRestlet(config);
 
 // Example using the get function
-ns.get(config).then((out) => { console.log(out)})
-
-
-
-
+ns.get(parameters, url).then((out) => { console.log(out)});

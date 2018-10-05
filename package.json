@@ -1,6 +1,6 @@
 {
   "name": "netsuite-restlet",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "NetSuite Restlet authentication module for Node.js",
   "main": "netsuite.js",
   "scripts": {
